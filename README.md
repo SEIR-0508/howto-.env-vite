@@ -20,16 +20,22 @@ A Vite config file called ```vite.config.js``` should already exist in your root
 
 ### Step 3: Create your ```.env``` file and define your environment variables. 
 
-In your project's root directory, create a ```.env``` file and define your environment variables. You must prefix them with ```VITE_``` in order for them to work. When making changes to your ```.env``` file, make sure you restart your server. Otherwise, the changes won't take place. In the following example, we're defining enviroment variables for an API Key and an email address.     
+In your project's root directory, create a ```.env``` file and define your environment variables. You must prefix them with ```VITE_``` in order for them to work. When making changes to your ```.env``` file, make sure you restart your server. Otherwise, the changes won't take place. 
+
+In the following example, we're defining enviroment variables for an API Key and an email address.     
 
 <img src='https://github.com/vinceoct/howto-.env-vite/blob/main/assets/dotenvvariable.png' width='700' height='300'>
 
 *Don't forget to add ```.env``` to your ```.gitignore``` file before pushing to Github.* 
 
+<img src='https://github.com/vinceoct/howto-.env-vite/blob/main/assets/gitignore.png' width='700' height='250'>
+
 
 ### Step 4: Access environment variables in your code. 
 
-To access your newly created enviroment variables, use ```import.meta.env```. In this example, we're accessing ```VITE_EMAIL``` using ```import.meta.env.VITE_EMAIL```
+To access your newly created enviroment variables, use ```import.meta.env```. You can test your variable by doing a console log: ```console.log(import.meta.env.<your variable>)``` 
+
+In the example below, we're accessing our email variable ```VITE_EMAIL``` using ```import.meta.env.VITE_EMAIL```
 
 <img src='https://github.com/vinceoct/howto-.env-vite/blob/main/assets/importmeta.png' width='700' height='175'>
 
