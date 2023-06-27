@@ -12,6 +12,7 @@ A file called ```vite.config.js``` is created when you first create your app. To
 ```import dotenv from 'dotenv'```
 Then call ```dotenv.config()```.
 
+<img src='https://github.com/vinceoct/howto-.env-vite/blob/main/assets/viteconfigjs.png'>
 
 ## Step 3 - Create your ```.env``` file and define your environment variables. 
 
