@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a step by step guide on how to use Enviroment Variables in a React App created using Vite. 
+This is a step by step guide on how to use enviroment variables in a Vite created React App. 
 
 ### Step 1: Install ```dotenv``` package.
 
